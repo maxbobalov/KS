@@ -6,4 +6,5 @@ fun main()
   val textMs: String = "Спасибо за покупку"
   println(numberOrder)
   println(textMs)
+
 }
