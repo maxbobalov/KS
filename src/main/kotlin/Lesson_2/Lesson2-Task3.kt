@@ -9,4 +9,5 @@ fun main() {
    val timeMinute: Int = minute + time % 60
 
    println("Время прибытия поезда = ${timeHour}:${timeMinute}")
+
  }
