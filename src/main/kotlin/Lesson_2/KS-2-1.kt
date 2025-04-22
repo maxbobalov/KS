@@ -10,4 +10,5 @@ fun main() {
 
     val result: Float = (mark1 + mark2 + mark3 + mark4) / students
     println(result)
+
 }
