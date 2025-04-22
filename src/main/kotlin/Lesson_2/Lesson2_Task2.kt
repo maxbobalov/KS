@@ -1,9 +1,17 @@
 package org.example.Lesson_2
 
 fun main(){
-    val oldEployees: Int = 50 * 30000
-    val allSalary: Int = oldEployees + (30 * 20000)
-    val Salary: Float = allSalary / 80F
+    val sumOldEmployees: Int = 50
+    val sumNewEmployees: Int = 30
+    val allEmployees: Int = 80
+
+    val oneOldEmloyeesSalary: Float = 30000F
+    val oneNewEmloyeesSalary: Float = 20000F
+
+    val oldEployees: Float = sumOldEmployees * oneOldEmloyeesSalary
+    val allSalary: Float = oldEployees + (sumNewEmployees * oneNewEmloyeesSalary)
+
+    val Salary: Float = allSalary / allEmployees
 
     println("Расходы на выплату зарплаты постоянных сотрудников = ${oldEployees}")
     println("Общие расходы по ЗП после прихода стажеров = ${allSalary}")
