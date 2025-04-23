@@ -1,16 +1,16 @@
 package org.example.Lesson_1
 
-const val c = 60
+const val TIME_SECOND = 60
 
 fun main() {
 
     val seconds: Short = 6480
-    val minute: Int = seconds / c
-    val hour: Int = minute / c
-    val resultMinute = String.format("%02d", minute % c)
-    val resultSecond = String.format("%02d", seconds % c)
-    val resultHour = String.format("%02d", hour)
+    val minutes: Int = seconds / TIME_SECOND
+    val hours: Int = minutes / TIME_SECOND
+    val resultMinutes = minutes % TIME_SECOND
+    val resultSeconds = seconds % TIME_SECOND
+    val resultHours =  hours
 
-    println("${resultHour}:${resultMinute}:${resultSecond};")
+    println(("%02d:%02d:%02d".format(resultHours, resultMinutes, resultSeconds)))
 
 }
