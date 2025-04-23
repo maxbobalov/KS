@@ -1,9 +1,10 @@
 package org.example.Lesson2
 
 fun main() {
-    val number1 = 20
-    val number2 = 100F
-    val buf: Float = number1 / number2
+    val percentBuff = 20
+    val percentDivider = 100F
+    val buf: Float = percentBuff / percentDivider
+
     val crystal: Int = 7
     val ironOre: Int = 11
 
